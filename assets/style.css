@@ -5,7 +5,7 @@ body {
     font-family: "Poiret One", sans-serif; 
     font-weight: 400;
     font-style: normal;
-    
+    background-color: black;
 }
 
 .navbar {
@@ -14,19 +14,14 @@ body {
   font-style: normal;
 }
 
-/*
-.bg-image {
-  background-image: url("assets/images/mikebanana.jpg") no-repeat center/cover;
+main {
+  font-family: "Poiret One", sans-serif; 
+  font-weight: 400;
+  font-style: normal;
  
-}*/
-
-.container {
-  max-width: 1100px;
-  margin: auto;
-  padding: 0 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
 }
+
+.btn {
+  background-color: #ffb7ce;
+}
+
