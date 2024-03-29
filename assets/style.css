@@ -23,10 +23,12 @@ body {
       top: 0;
   }
     .lead-1, .lead-2 {
-      position: relative;
+      position: absolute;
+      float: right;
      
   }
 }
+
 
 .navbar {
   font-family: "Poiret One", sans-serif; 
@@ -54,12 +56,14 @@ main {
 
 .bg-image {
   position: absolute;
-  width: 100%;
+  width: 50%;
   height: 100vh;
   
   background: url("/assets/images/mikebanana.jpg") center center no-repeat;
   background-size: cover;
 }
+
+
 
 /* Custom default button */
 .btn,
@@ -68,4 +72,6 @@ main {
   color: #d24ea6;
   
 }
+
+
 
