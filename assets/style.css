@@ -23,8 +23,8 @@ body {
       top: 0;
   }
     .lead-1, .lead-2 {
-      position: absolute;
-      float: right;
+      position: relative;
+    
      
   }
 }
@@ -56,7 +56,7 @@ main {
 
 .bg-image {
   position: absolute;
-  width: 50%;
+  width: 100%;
   height: 100vh;
   
   background: url("/assets/images/mikebanana.jpg") center center no-repeat;
